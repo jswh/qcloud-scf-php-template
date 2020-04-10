@@ -1,0 +1,21 @@
+{
+    "name": "jswh/qcloud-serverless",
+    "authors": [
+        {
+            "name": "jswh",
+            "email": "jswh@jswh.me"
+        }
+    ],
+    "require": {
+        "jswh/routeless": "@dev"
+    },
+  "autoload": {
+      "psr-4": {"": "src/"}
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:jswh/routeless-kernel.git"
+        }
+    ]
+}
